@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
-    
+
+    <div class="container flex">
+
+        <aside class="side-bar flex">
+             <div class="side-user">
+                <div>
+                    <div class="align-c flex"><i data-lucide="user"></i><span>User</span></div>
+                
+                    <div class="align-c flex"><i data-lucide="store"></i><span>AutoRepairName</span></div>
+                </div>
+             </div>
+
+        <nav>
+            <ul>
+                <li><i data-lucide="layout-dashboard"></i>Dashboard</li>
+                <li><i data-lucide="car-front"></i>Veículos</li>
+                <li><i data-lucide="user"></i>Clientes</li>
+                <li><i data-lucide="card-sim"></i>Ordens de serviço</li>
+                <li><i data-lucide="archive"></i>Estoque</li>
+            </ul>
+        </nav>
+
+        <div class="side_bar_cfg">
+            <ul>
+                <li><i data-lucide="headset"></i>Suporte</li>
+                <li><i data-lucide="sun-moon"></i>Tema</li>
+                <li><i data-lucide="dice-4"></i>Futuro</li>
+                <li><i data-lucide="settings"></i>Configuracoes</li>
+            </ul>
+        </div>
+        </aside>
+
+        <main class="content">
+
+        </main>
+    </div>
+
+
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>
